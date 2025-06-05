@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+@theme{
+    --color-background_dark:#101924;
+    --color-background_nav_dark: #1E2B3A;
+    --color-roxo_home: #4B32F1;
+    --color-laranja_texto: #FFA040;
+    --color-laranja_hover: #FF934A;
+    --color-laranja_button: #F26A1E;
+    --color-Secoes_alternadas: #1A2332;
+
+
+    --font-DM_serif: "DM Serif Display", serif;
+}
