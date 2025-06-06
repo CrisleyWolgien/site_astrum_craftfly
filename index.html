@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./src/output.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Document</title>
   </head>
   <body class="bg-background_dark m-0 p-0 pt-20">
@@ -48,7 +53,7 @@
         </svg>
       </button>
     </nav>
-    <header class="flex flex-col items-center justify-center w-full ">
+    <header class="flex flex-col items-center justify-center w-full">
       <img
         class="w-[280px] m-5"
         src="./images/astrum_craftfly_sem_fundo.png"
@@ -70,8 +75,14 @@
         desenvolvimento de softwares para pequenas e médias empresas.
       </p>
 
-      <button class="text-white flex gap-2 items-center bg-laranja_button hover:bg-laranja_hover font-medium px-4 py-2 rounded-full transition-colors ">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="size-8">
+      <button
+        class="text-white flex gap-2 items-center bg-laranja_button hover:bg-laranja_hover font-medium px-4 py-2 rounded-full transition-colors"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+          class="size-8"
+        >
           <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
           <path
             fill="#25d366"
@@ -81,10 +92,150 @@
         solicite um orçamento
       </button>
     </header>
+
+    <!-- nossos serviços -->
+    <article class="w-full my-5">
+      <section class="w-full py-10 px-6">
+        <div class="mb_8">
+          <!-- título -->
+          <h2 class="text-laranja_texto font-DM_serif text-2xl">
+            Nossos Principais Serviços
+          </h2>
+        </div>
+
+        <div class="mt-7" id="servicos_container">
+          <!-- slide 1 -->
+          <div
+            id="slide"
+            class="text-center items-center bg-Secoes_alternadas rounded-2xl"
+          >
+            <img
+              src="./images/servico_site.png"
+              alt="imagem de exemplo de site"
+              class="w-full h-auto"
+            />
+            <h2 class="text-white text-xl font-semibold mb-2">
+              Criação de Sites
+            </h2>
+            <p class="text-white text-sm">
+              Sites modernos, responsivos e otimizados para SEO feitos sob
+              medida para sua empresa
+            </p>
+            <button
+              class="bg-laranja_button hover:bg-laranja_hover p-2 px-5 mt-5 mb-4 rounded-xl"
+            >
+              Saiba Mais
+            </button>
+          </div>
+          <!-- fim slide 1 -->
+
+          <!-- slide 2 -->
+          <div
+            id="slide"
+            class="text-center items-center bg-Secoes_alternadas rounded-2xl mt-5"
+          >
+            <img
+              src="./images/servico_software.png"
+              alt="imagem de exemplo de site"
+              class="w-full h-auto"
+            />
+            <h2 class="text-white text-xl font-semibold mb-2">
+              Desenvolvimento de Sistemas e Softwares
+            </h2>
+            <p class="text-white text-sm">
+              Soluções personalizadas para automatizar processos, escalar seu
+              negócio e ganhar tempo.
+            </p>
+            <button
+              class="bg-laranja_button hover:bg-laranja_hover p-2 px-5 mt-5 mb-4 rounded-xl"
+            >
+              Saiba Mais
+            </button>
+          </div>
+          <!-- fim slide 2 -->
+
+          <!-- slide 3 -->
+          <div
+            id="slide"
+            class="text-center items-center bg-Secoes_alternadas rounded-2xl mt-5"
+          >
+            <img
+              src="./images/servico_marketing.png"
+              alt="imagem de exemplo de site"
+              class="w-full h-auto"
+            />
+            <h2 class="text-white text-xl font-semibold mb-2">
+              Marketing Digital Estratégico
+            </h2>
+            <p class="text-white text-sm">
+              Atraia mais clientes com estratégias pensadas para resultados
+              reais.
+            </p>
+            <button
+              class="bg-laranja_button hover:bg-laranja_hover p-2 px-5 mt-5 mb-4 rounded-xl"
+            >
+              Saiba Mais
+            </button>
+          </div>
+          <!-- fim slide 3 -->
+
+          <!-- slide 4 -->
+          <div
+            id="slide"
+            class="text-center items-center bg-Secoes_alternadas rounded-2xl mt-5"
+          >
+            <img
+              src="./images/servico_design.png"
+              alt="imagem de exemplo de site"
+              class="w-full h-auto"
+            />
+            <h2 class="text-white text-xl font-semibold mb-2">
+              Design e Identidade Visual
+            </h2>
+            <p class="text-white text-sm">
+              Dê cara e personalidade à sua marca com design profissional e
+              memorável.
+            </p>
+            <button
+              class="bg-laranja_button hover:bg-laranja_hover p-2 px-5 mt-5 mb-4 rounded-xl"
+            >
+              Saiba Mais
+            </button>
+          </div>
+          <!-- fim slide 4 -->
+
+          <!-- slide 5 -->
+          <div
+            id="slide"
+            class="text-center items-center bg-Secoes_alternadas rounded-2xl mt-5"
+          >
+            <img
+              src="./images/servico_consultoria.png"
+              alt="imagem de exemplo de site"
+              class="w-full h-auto"
+            />
+            <h2 class="text-white text-xl font-semibold mb-2">
+              Consultoria Digital
+            </h2>
+            <p class="text-white text-sm">
+              Não sabe por onde começar? Ajudamos a definir as melhores
+              estratégias e ferramentas para o seu negócio.
+            </p>
+            <button
+              class="bg-laranja_button hover:bg-laranja_hover p-2 px-5 mt-5 mb-4 rounded-xl"
+            >
+              Saiba Mais
+            </button>
+          </div>
+          <!-- fim slide 5 -->
+        </div>
+      </section>
+    </article>
+
     <!-- portfolio sites -->
     <article class="w-full mt-10">
       <!--carrosel projetos sites-->
-      <section class="bg-Secoes_alternadas w-full py-10 px-6 relative">
+      <section class="bg-background_dark w-full py-10 px-6 relative">
         <!-- Títulos -->
         <div class="mb-8">
           <h3 class="text-[#F26A1E] text-lg">Desenvolvimento de sites</h3>
@@ -189,7 +340,7 @@
     </article>
 
     <!-- portifolio marketing -->
-     <article class="w-full mt-10">
+    <article class="w-full mt-10">
       <!--carrosel projetos marketing-->
       <section class="bg-Secoes_alternadas w-full py-10 px-6 relative">
         <!-- Títulos -->
@@ -217,9 +368,7 @@
                 <h2 class="text-white text-xl font-semibold mb-2">
                   Site Fulano
                 </h2>
-                <p class="text-white text-sm">
-                 marketing.
-                </p>
+                <p class="text-white text-sm">marketing.</p>
               </div>
             </div>
             <!-- fim do slide 1 -->
@@ -237,9 +386,7 @@
                 <h2 class="text-white text-xl font-semibold mb-2">
                   Site Beltrano
                 </h2>
-                <p class="text-white text-sm">
-                 marketing.
-                </p>
+                <p class="text-white text-sm">marketing.</p>
               </div>
             </div>
             <!-- fim slide 2 -->
